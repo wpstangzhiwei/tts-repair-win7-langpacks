@@ -10,14 +10,10 @@ This repository is a **submodule** of `tts-repair`:
 platforms/windows/win7/resources/Microsoft Speech Platform/langpacks
 ```
 
-Clone the parent with:
+Clone the parent, then install. `tts-repair.bat` downloads only the MSI for the language you ask for.
+
+To get every pack locally:
 
 ```bat
-git clone --recurse-submodules https://github.com/wpstangzhiwei/tts-repair.git
-```
-
-Or later:
-
-```bat
-platforms\windows\win7\scripts\attach-langpacks.bat
+git submodule update --init -- platforms/windows/win7/resources/Microsoft Speech Platform/langpacks
 ```
