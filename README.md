@@ -7,7 +7,7 @@ Source: [Microsoft Speech Platform - Runtime Languages 11](https://www.microsoft
 This repository is a **submodule** of `tts-repair`:
 
 ```text
-platforms/windows/win7/resources/Microsoft Speech Platform/langpacks
+platforms/windows/win7/resources/Microsoft Speech Platform/Langpacks
 ```
 
 Clone the parent, then install. `tts-repair.bat` downloads only the MSI for the language you ask for.
@@ -15,5 +15,5 @@ Clone the parent, then install. `tts-repair.bat` downloads only the MSI for the 
 To get every pack locally:
 
 ```bat
-git submodule update --init -- platforms/windows/win7/resources/Microsoft Speech Platform/langpacks
+git submodule update --init -- platforms/windows/win7/resources/Microsoft Speech Platform/Langpacks
 ```
